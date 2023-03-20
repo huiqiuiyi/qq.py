@@ -4,7 +4,6 @@ from config import appid, token
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
-client = qq.Client()
 
 intent = qq.Intents.default()
 intent.guild_messages = True
